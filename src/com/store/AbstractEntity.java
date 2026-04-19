@@ -1,4 +1,9 @@
-package com.store;
+package com.store.common;
 
-public class AbstractEntity {
+public abstract class AbstractEntity {
+    protected Long id;
+
+    public Long getId() {
+        return id;
+    }
 }
