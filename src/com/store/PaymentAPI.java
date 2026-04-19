@@ -1,4 +1,5 @@
-package com.store;
+package com.store.api;
 
-public class PaymentAPI {
+public interface PaymentAPI {
+    void processPayment(double amount);
 }
