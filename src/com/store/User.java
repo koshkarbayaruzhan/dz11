@@ -1,4 +1,12 @@
-package com.store;
+package com.store.user;
 
-public class User {
+import com.store.common.AbstractEntity;
+
+public abstract class User extends AbstractEntity {
+    protected String name;
+    protected String email;
+    protected String address;
+    protected String phone;
+
+    public abstract void login();
 }
